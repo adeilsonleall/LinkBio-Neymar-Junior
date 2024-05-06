@@ -145,3 +145,12 @@ table tr:nth-of-type(odd) td{
     background-color: #fff;
     color: #000;
 }
+table tr td div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+table tr td img{
+    width: 30px;
+}
