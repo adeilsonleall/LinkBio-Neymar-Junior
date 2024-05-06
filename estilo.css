@@ -69,7 +69,7 @@
 }
 .info h1::after{
     content: "";
-    background-image: url(/assets/verificado.png);
+    background-image: url(assets/verificado.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 15px;
