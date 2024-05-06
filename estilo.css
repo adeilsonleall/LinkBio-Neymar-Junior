@@ -1,0 +1,147 @@
+    /* font-family: 'Montserrat', sans-serif;
+       font-family: 'Ysabeau Infant', sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bold;
+}
+.size-items{
+    margin: auto auto;
+    width: 768px;
+    max-width: 768px;
+}
+.section-banner video{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.info{
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mypicture{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 100%;
+    margin: auto auto;
+}
+.mypicture::before{
+    content: "";
+    background: linear-gradient(90deg, #ffdf00, #009c3b);
+    width: 215px;
+    height: 215px;
+    position: absolute;
+    border-radius: 100%;
+    z-index: -1;
+}
+.mypicture img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    gap: 20px;
+}
+.info h1{
+    color: #fff;
+    font-size: 36pt;
+    text-shadow: 3px 4px 1px #000000;
+    position: relative;
+}
+.info h1::before{
+    content: "";
+    width: 53px;
+    height: 5px;
+    background: linear-gradient(90deg, #ffdf00,#009c3b);
+    position: absolute;
+    left: 6px;
+    top: 60px;
+}
+.info h1::after{
+    content: "";
+    background-image: url(/assets/verificado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 40px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.links a{
+    width: 100%;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 14pt;
+    color: #fff;
+    background-color: #0200006e;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+.links a img{
+    width: 28px;
+    position: absolute;
+    left: 5px;
+    top: 9px;
+}
+.links a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.section-estatistica{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/imagem-de-fundo.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.section-estatistica h2{
+    color: #fff;
+    font-size: 36pt;
+    text-shadow: 3px 4px 1px #000000;
+}
+table{
+    width: 768px;
+    max-width: 768px;
+}
+table tr th, td{
+    padding: 20px;
+    border-radius: 5px;
+    opacity: 0.8;
+    text-align: center;
+}
+table tr:nth-of-type(even) td, th{
+    background-color: #000;
+    color: #fff;
+}
+table tr th{
+    font-size: 18pt;
+}
+table tr:nth-of-type(odd) td{
+    background-color: #fff;
+    color: #000;
+}
